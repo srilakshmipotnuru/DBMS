@@ -31,8 +31,10 @@ try:
     doop = []
     allauthors = {}
     venues=[]
-
-    with open("source.txt", encoding="utf8") as lines:
+    """
+    source file: https://drive.google.com/file/d/1wKx3z2nblF9kBtJO7LfY6wsI-MWpLYVa/view?usp=sharing
+    """
+    with open("source.txt", encoding="utf8") as lines: 
 
         for str in lines:
     
